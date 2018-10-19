@@ -8,7 +8,9 @@ Git is a control system while Github is the host and provides Git.
 
 ---
 ## Initial Setup
-If you wish to make a Github account, you can sign in with your HSTAT email, or if want you can be able to use your personal one. Follow the directions they want you put in. 
+1. If you wish to make a Github account you go to the website www.github.com
+2. You can sign in with your HSTAT email, or if want you can be able to use your personal one. Follow the directions they want you put in.
+3. Therefore, you would be able to get started 
 
 
 ---
@@ -26,4 +28,11 @@ If you wish to make a Github account, you can sign in with your HSTAT email, or 
 
 ---
 ## Rolling Back Changes 
-If you want to take back something you did in the staging area, then you 
+If you want to take back something you did in the staging area, then look at the bullets below:
+* Undo edit:
+  *   Go to the file you want to undo the edit from 
+  *   Then ```c9 FILENAME``` (Instert your file name)
+  *   But once you go there and you see that you want to undo an edit you go to ```git status```
+  *   Once you type that there should be 2 comands follow ```git checkout -- <file>``` insert the file name
+* Undo add:
+    *   
