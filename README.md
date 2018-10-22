@@ -13,20 +13,30 @@ Git is a control system while Github is the host and provides Git.
 3. Therefore, you would be able to get started 
     
      **SSH KEY**
-    *  If you 
+    *  Once you made your account go to (www.c9.io), login into your acoount **Do not go to workspace yet**, you should see a settings icon, click on it
+    * After you click on it, press on SSH Keys, copy the code that says 
+        *  (Connect to your private git repository)
+    *  Go to www.github.com and click on the settings icon 
+        * Click on SSH and GPG keys
+        * Then click on new SSH keys 
+        * Once your there ,it should appear (SSH Keys/add new)
+        * Make a title that will help you remember like C9 or cloud 9
+        * Padte the code you copied previously into the part that says (Key).
 
 
 ---
 ## Repository Setup
 1. When you start your repository go to your file and  do ```git init```, this will help you initialze the your repository, it will help you begin
-2. Once you initilized your repository you would want to use ```git add``` , so it can be add the file to the staging area
+2. Once you initilized your repository you would want to use ```git add``` , so it can add the file to the staging area
+    * use ```git add . ```
+    * use ```git add filename.md```
 3. After that, you can commit your file which would be ```git commit -m (the  meassage and how it was modified)```
-4. 
 
----
+      **New Repo on Github**
+     *
 ## Workflow & Commands
 1. You want to check if any of your commits are being added into the staging area, you can use ```git status```.
-2. If its red it's because you didn't use ```git add```, after that you should use ```git commit -m (make a message to remind yourself the step you are going to do)```. 
+2. If it's red it's because you didn't use ```git add```, once you do, you should use ```git commit -m (make a message to remind yourself the step you are going to do)```. 
 3. Finally, you can use ```git status```  to check and it should be green. 
 4. If you wish to push your project the command will be ```git push```, this will help someone else look at your work through github.
 
@@ -36,7 +46,7 @@ Git is a control system while Github is the host and provides Git.
 If you want to take back something you did in the staging area, then look at the bullets below:
 * **Undo edit:**
   *   Go to the file you want to undo the edit from 
-  *   Then ```c9 FILENAME``` (Instert your file name)
+  *   Then ```c9 FILENAME``` (Insert your file name)
   *   But once you go there and you see that you want to undo an edit you go to ```git status```
   *   Once you type that there should be 2 comands follow ```git checkout -- <file>``` (insert the file name that you wish to undo the edit)
 * **Undo add:**
@@ -46,4 +56,5 @@ If you want to take back something you did in the staging area, then look at the
   * This one's alittle too complicated
   * You can use ``git reset --soft HEAD~1``
   * If you want to uncommit an add you use ``git reset HEAD~1``
-  * If you want to uncommit 
+  * If you want to uncommit an edit you use ```git reset HEAD~1```( this will take you back to the last commit)
+  
