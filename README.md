@@ -4,7 +4,7 @@ by Karen Morocho
 
 ---
 ## Git vs. GitHub
-Git is a control system while Github is the host and provides Git.
+Git is a control system and keeps pictures of the code while Github is the host and provides Git
 
 ---
 ## Initial Setup
@@ -19,21 +19,30 @@ Git is a control system while Github is the host and provides Git.
     *  Go to www.github.com and click on the settings icon 
         * Click on SSH and GPG keys
         * Then click on new SSH keys 
-        * Once your there ,it should appear (SSH Keys/add new)
+        * Once your there, it should appear (SSH Keys/add new)
         * Make a title that will help you remember like C9 or cloud 9
-        * Padte the code you copied previously into the part that says (Key).
+        * Paste the code you copied previously into the part that says (Key).
+    * Go back to cloud9 
+        *  Open c9 workspace 
+        *  Type ssh -T git@github.com
 
 
 ---
 ## Repository Setup
 1. When you start your repository go to your file and  do ```git init```, this will help you initialze the your repository, it will help you begin
 2. Once you initilized your repository you would want to use ```git add``` , so it can add the file to the staging area
-    * use ```git add . ```
+    * use ```git add . ```  or 
     * use ```git add filename.md```
 3. After that, you can commit your file which would be ```git commit -m (the  meassage and how it was modified)```
 
       **New Repo on Github**
-     *
+     * Go to your www.github.com, on the top right corner there should be a plus sign (click on it )
+     * Write the filename, **MAKE SURE THE FILENAMES ARE THE SAME**
+     * CLick on _create repostitory_
+     * Once your there you should click on SSH towards the top
+     * now copy the last 2 lines that starts with ( or push ) ** Make sure you copy each line seperately**
+     * Paste it in your c9 file
+     
 ## Workflow & Commands
 1. You want to check if any of your commits are being added into the staging area, you can use ```git status```.
 2. If it's red it's because you didn't use ```git add```, once you do, you should use ```git commit -m (make a message to remind yourself the step you are going to do)```. 
