@@ -9,8 +9,8 @@ Git is a control system and keeps pictures of the code and helps you share or co
 ---
 ## Initial Setup
 1. If you wish to make a Github account you go to this website (www.github.com).
-2. You can sign in with your HSTAT email, or if want you can be able to use your personal one. Follow the directions they want you to put in.
-3. Therefore, you would be able to get started and make projects!
+2. You can sign up with your HSTAT email, or if want you can be able to use your personal one. Follow the directions they want you to put in.
+3. Therefore, you would be able to get started!
 
     
      **SSH KEY**
