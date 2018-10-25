@@ -13,7 +13,7 @@ Git is a control system and keeps pictures of the code and helps you share or co
 3. Therefore, you would be able to get started and make projects!
     
      **SSH KEY**
-    *  Once you made your account go to (www.c9.io), login into your acoount **Do not go to workspace yet**, you should see a settings icon, click on it
+    *  Once you made your account go to (www.c9.io), login into your acoount. **Do not go to workspace yet**, you should see a settings icon, click on it
     * After you click on it, press on SSH Keys, copy the code that says 
         *  (Connect to your private git repository)
     *  Go to www.github.com and click on the settings icon 
