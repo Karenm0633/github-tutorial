@@ -4,12 +4,12 @@ by Karen Morocho
 
 ---
 ## Git vs. GitHub
-Git is a control system and keeps pictures of the code while Github is the host and provides Git
+Git is a control system and keeps pictures of the code and helps you share or collaborate with other people, while Github is the host and provides Git.
 
 ---
 ## Initial Setup
 1. If you wish to make a Github account you go to this website (www.github.com)
-2. You can sign in with your HSTAT email, or if want you can be able to use your personal one. Follow the directions they want you put in.
+2. You can sign in with your HSTAT email, or if want you can be able to use your personal one. Follow the directions they want you to put in.
 3. Therefore, you would be able to get started 
     
      **SSH KEY**
@@ -66,4 +66,4 @@ If you want to take back something you did in the staging area, then look at the
   * You can use ``git reset --soft HEAD~1``
   * If you want to uncommit an add you use ``git reset HEAD~1``
   * If you want to uncommit an edit you use ```git reset HEAD~1```( this will take you back to the last commit)
-  
+  * If you want to uncommit a push then you use ```git revert (and the filenumber)```
